@@ -2,6 +2,7 @@ package recursionAssignment;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
 
 import recursionAssignment.Recursion;
 public class RecursionTest{
