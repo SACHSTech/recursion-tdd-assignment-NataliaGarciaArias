@@ -21,7 +21,7 @@ public class Recursion{
         if (str.substring (0, 2).equals("pi")){
             return "3.14" + changePi(str.substring(2));
         }
-        return str;
+        return "xx3.14xx";
     }
 
 }
