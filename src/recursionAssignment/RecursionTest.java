@@ -27,6 +27,11 @@ public class RecursionTest{
     public void Problem1_Test2(){
       assertEquals(0, Recursion.count7(1234));
     }
+
+    @Test
+    public void Problem2_Test1(){
+      assertEquals("", Recursion.changePi(""));
+    }
     // add more tests
     
     @After
