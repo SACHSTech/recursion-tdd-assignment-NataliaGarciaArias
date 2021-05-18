@@ -14,6 +14,11 @@ public class Recursion{
         
     }
     public static String changePi(String str){
+        //Base Case
+        if (str.length() <= 2){
+            str = "3.14";
+            return str;
+        }
         return str;
     }
 
