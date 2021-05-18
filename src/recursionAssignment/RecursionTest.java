@@ -16,13 +16,17 @@ public class RecursionTest{
      * An initial test
      */
     @Test
-    public void Test1(){
+    public void Problem1_Test1(){
         // make assertion statement(s)
         assertEquals(2, Recursion.count7(717));
         // assertEquals(EXPECTEDVALUE, TESTVALUE);
         // assertTrue(TESTBOOLEAN);
     }
-    
+
+    @Test
+    public void Problem1_Test2(){
+      assertEquals(0, Recursion.count7(1234));
+    }
     // add more tests
     
     @After
