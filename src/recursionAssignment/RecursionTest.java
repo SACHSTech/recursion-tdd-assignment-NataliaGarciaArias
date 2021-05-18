@@ -41,6 +41,11 @@ public class RecursionTest{
     public void Problem2_Test3(){
       assertEquals("xx3.14xx", Recursion.changePi("xxpixx"));
     }
+
+    @Test
+    public void Problem2_Test4(){
+      assertEquals("nothing", Recursion.changePi("nothing"));
+    }
     // add more tests
     
     @After
