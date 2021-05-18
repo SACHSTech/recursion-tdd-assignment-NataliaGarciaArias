@@ -15,8 +15,8 @@ public class RecursionTest{
     /**
      * An initial test
      */
-    @Test
-    public void Problem1_Test1(){
+   // @Test
+  /**  public void Problem1_Test1(){
         // make assertion statement(s)
         assertEquals(2, Recursion.count7(717));
         // assertEquals(EXPECTEDVALUE, TESTVALUE);
@@ -27,6 +27,7 @@ public class RecursionTest{
     public void Problem1_Test2(){
       assertEquals(0, Recursion.count7(1234));
     }
+    */
 
     @Test
     public void Problem2_Test1(){
