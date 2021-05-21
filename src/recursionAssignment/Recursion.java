@@ -33,7 +33,7 @@ public class Recursion{
         } if (str.charAt(0) == str.charAt(1)){
             return stringClean(str.substring(1));
         }
-        return " ";
+        return "yzy";
     }
 
 }
