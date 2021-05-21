@@ -62,6 +62,21 @@ public class RecursionTest{
     public void Problem3_Test3(){
       assertEquals("yzy", Recursion.stringClean("yyzzyy"));
     }
+
+    @Test
+    public void Problem3_Test4(){
+      assertEquals("Helo", Recursion.stringClean("Hellloo"));
+    }
+
+    @Test
+    public void Problem3_Test5(){
+      assertEquals(" ", Recursion.stringClean("   "));
+    }
+
+    @Test
+    public void Problem3_Test6(){
+      assertEquals("i can't spel ", Recursion.stringClean("ii can'''t spppell   "));
+    }
     // add more tests
     
     @After
