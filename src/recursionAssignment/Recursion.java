@@ -28,12 +28,18 @@ public class Recursion{
     
     public static String stringClean(String str){
 
+        //Base case
         if (str.length() < 2){
             return str;
+
+        //If the first character == second character
         } if (str.charAt(0) == str.charAt(1)){
+
+            //Recursive recall, returns substring without the first character
             return stringClean(str.substring(1));
         }
-        return "yzy";
+        //Returns the first character + recursive recall
+        return str.charAt(0) + stringClean(str.substring(1));
     }
 
 }
