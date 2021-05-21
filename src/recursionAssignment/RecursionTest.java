@@ -52,6 +52,12 @@ public class RecursionTest{
     public void Problem3_Test1(){
       assertEquals("", Recursion.stringClean(""));
     }
+
+    @Test
+    public void Provlem3_Test2(){
+      assertEquals("y", Recursion.stringClean("yy"));
+
+    }
     // add more tests
     
     @After
