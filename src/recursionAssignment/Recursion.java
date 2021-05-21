@@ -27,7 +27,11 @@ public class Recursion{
     }
     
     public static String stringClean(String str){
-        return str;
+
+        if (str.length() < 2){
+            return str;
+        }
+        return " ";
     }
 
 }
