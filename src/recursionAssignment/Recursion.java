@@ -30,6 +30,8 @@ public class Recursion{
 
         if (str.length() < 2){
             return str;
+        } if (str.charAt(0) == str.charAt(1)){
+            return "y";
         }
         return " ";
     }
