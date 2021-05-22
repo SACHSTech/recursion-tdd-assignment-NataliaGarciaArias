@@ -7,7 +7,11 @@ public class Recursion{
      * @return
      */
     public static int count7(int n){
-        return 2; //redoing this problem later
+        
+        if (n == 0 || n < 7){
+            return 0;
+        }
+        return 2;
         
         
         
