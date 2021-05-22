@@ -33,6 +33,15 @@ public class RecursionTest{
       assertEquals(1, Recursion.count7(7)); 
     }
     
+    @Test 
+    public void Problem1_Test4(){
+      assertEquals(0, Recursion.count7(1234));
+    }
+
+    @Test
+    public void Problem1_Test5(){
+      assertEquals(0, Recursion.count7(-1));
+    }
 
     @Test
     public void Problem2_Test1(){
