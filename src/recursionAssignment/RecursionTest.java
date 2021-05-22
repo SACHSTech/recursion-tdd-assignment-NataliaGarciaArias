@@ -30,7 +30,7 @@ public class RecursionTest{
 
     @Test
     public void Problem1_Test3(){
-      assertEquals(0, Recursion.count7(1234));
+      assertEquals(1, Recursion.count7(7)); 
     }
     
 
