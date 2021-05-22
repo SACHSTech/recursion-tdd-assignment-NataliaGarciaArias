@@ -1,6 +1,11 @@
 package recursionAssignment;
 
 public class Recursion{
+    /**
+     * 
+     * @param n
+     * @return
+     */
     public static int count7(int n){
         return 2; //redoing this problem later
         
@@ -15,6 +20,12 @@ public class Recursion{
 
 
     }
+    
+    /**
+     * 
+     * @param str
+     * @return
+     */
     public static String changePi(String str){
         //Base Case
         if (str.length() < 2){
@@ -25,7 +36,12 @@ public class Recursion{
         }
         return str.charAt(0) + changePi(str.substring(1));
     }
-    
+
+    /**
+     * 
+     * @param str
+     * @return
+     */
     public static String stringClean(String str){
 
         //Base case
