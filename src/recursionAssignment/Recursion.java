@@ -10,6 +10,8 @@ public class Recursion{
         
         if (n == 0 || n < 7){
             return 0;
+        }else if (n % 10 == 7){
+            return 1;
         }
         return 2;
         
